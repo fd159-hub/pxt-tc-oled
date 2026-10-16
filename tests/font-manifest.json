@@ -1,0 +1,14 @@
+{
+  "moeCharacters": 4808,
+  "totalGlyphs": 4943,
+  "bitmapBytes": 158176,
+  "packedBytes": 122237,
+  "lookupBytes": 9886,
+  "offsetBytes": 9886,
+  "treeBytes": 780,
+  "banks": 8,
+  "bitmapSha256": "6afcbff65d380d9fc5a5768e23a2c1ef14514303e51baada2348ecabd5b4a6da",
+  "fontSha256": "5bab0cb3c1cf89dde07c4a95a4054b195afbcfe784d69d75c340780712237537",
+  "source": "https://language.moe.gov.tw/material/info?m=9fe3ff5a-5a8c-4817-9e60-6337dd55a509",
+  "missing": []
+}

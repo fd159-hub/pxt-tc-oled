@@ -1,0 +1,35 @@
+{
+    "name": "tc-oled",
+    "version": "0.2.0",
+    "description": "micro:bit V2 中文 OLED 常用字庫：中文詞句選單與局部更新（尚不支援自由輸入中文）",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "oled.ts",
+        "common-font.ts",
+        "font-bank-0.ts",
+        "font-bank-1.ts",
+        "font-bank-2.ts",
+        "font-bank-3.ts",
+        "font-bank-4.ts",
+        "font-bank-5.ts",
+        "font-bank-6.ts",
+        "font-bank-7.ts",
+        "OFL.txt",
+        "student.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "tsprj",
+    "utf8": true,
+    "disablesVariants": [
+        "mbdal"
+    ]
+}

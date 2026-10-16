@@ -1,0 +1,164 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+<block id=";|Fb70@!Pd1G^O;8E4^q" type="device_button_event">
+<field name="NAME">Button.A</field>
+<statement name="HANDLER">
+<block id="Of~htuvxIXC{x!mZH]M{" type="controls_if">
+<mutation elseif="0" else="1" />
+<value name="IF0">
+<shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow>
+<block type="logic_compare">
+<field name="OP">EQ</field>
+<value name="A">
+<shadow type="math_number"><field name="NUM">0</field></shadow>
+<block type="typescript_expression">
+<field name="EXPRESSION">temperature</field>
+</block>
+</value>
+<value name="B">
+<shadow type="math_number">
+<field name="NUM">25</field>
+</shadow>
+</value>
+</block>
+</value>
+<statement name="DO0">
+<block id="W*d:JTq/Z|4mS%aUTIgk" type="variables_set">
+<field name="VAR">temperature</field>
+<value name="VALUE">
+<shadow type="math_number">
+<field name="NUM">26</field>
+</shadow>
+</value>
+</block>
+</statement>
+<statement name="ELSE">
+<block id="q^d2Tz{@|o2Ihj1blM)`" type="variables_set">
+<field name="VAR">temperature</field>
+<value name="VALUE">
+<shadow type="math_number">
+<field name="NUM">25</field>
+</shadow>
+</value>
+</block>
+</statement>
+<next>
+<block id="_7[U+uzisPY2Y/imOMkb" type="tcOLED_showCommonLineNumber">
+<field name="phrase">TCText.Temperature</field>
+<value name="line">
+<shadow type="math_number_minmax">
+<mutation min="1" max="4" label="Line" />
+<field name="SLIDER">3</field>
+</shadow>
+</value>
+<value name="value">
+<block type="typescript_expression">
+<field name="EXPRESSION">temperature</field>
+</block>
+</value>
+</block>
+</next>
+</block>
+</statement>
+</block>
+<block id="^hc3,Ti0{HJ{*^1C~(J^" type="device_button_event">
+<field name="NAME">Button.B</field>
+<statement name="HANDLER">
+<block id="SDW64/lv%md0DC%`r*I@" type="tcOLED_showCommonLine">
+<field name="phrase">TCText.Welcome</field>
+<value name="line">
+<shadow type="math_number_minmax">
+<mutation min="1" max="4" label="Line" />
+<field name="SLIDER">1</field>
+</shadow>
+</value>
+<next>
+<block id="U2#T;`p2iZK;WlF$^@fB" type="tcOLED_showCommonLine">
+<field name="phrase">TCText.Challenge</field>
+<value name="line">
+<shadow type="math_number_minmax">
+<mutation min="1" max="4" label="Line" />
+<field name="SLIDER">2</field>
+</shadow>
+</value>
+<next>
+<block id="P#~LHuZsAHD=;N.zfRd|" type="tcOLED_showCommonLine">
+<field name="phrase">TCText.Learning</field>
+<value name="line">
+<shadow type="math_number_minmax">
+<mutation min="1" max="4" label="Line" />
+<field name="SLIDER">4</field>
+</shadow>
+</value>
+</block>
+</next>
+</block>
+</next>
+</block>
+</statement>
+</block>
+<block id="xRRgvHNlG#rZ^u`HECiY" type="pxt-on-start">
+<statement name="HANDLER">
+<block id=":n/PivPV3R7Sy4P(nkRK" type="variables_set">
+<field name="VAR">temperature</field>
+<value name="VALUE">
+<shadow type="math_number">
+<field name="NUM">25</field>
+</shadow>
+</value>
+<next>
+<block id="0?;+b#Lmtr3$~Gx+?zRP" type="tcOLED_start">
+<next>
+<block id="mrtzgI]FEX~CO1N1bZ.F" type="tcOLED_showCommonLine">
+<field name="phrase">TCText.Hello</field>
+<value name="line">
+<shadow type="math_number_minmax">
+<mutation min="1" max="4" label="Line" />
+<field name="SLIDER">1</field>
+</shadow>
+</value>
+<next>
+<block id="kY2XEcMyUO,OPyG`YBYH" type="tcOLED_showCommonLine">
+<field name="phrase">TCText.Grade</field>
+<value name="line">
+<shadow type="math_number_minmax">
+<mutation min="1" max="4" label="Line" />
+<field name="SLIDER">2</field>
+</shadow>
+</value>
+<next>
+<block id="zyzpG7{fYZc`lCMTE#*t" type="tcOLED_showCommonLineNumber">
+<field name="phrase">TCText.Temperature</field>
+<value name="line">
+<shadow type="math_number_minmax">
+<mutation min="1" max="4" label="Line" />
+<field name="SLIDER">3</field>
+</shadow>
+</value>
+<value name="value">
+<block type="typescript_expression">
+<field name="EXPRESSION">temperature</field>
+</block>
+</value>
+<next>
+<block id="aG-NlkK%0{+{OxOW,abD" type="tcOLED_showCommonLine">
+<field name="phrase">TCText.Success</field>
+<value name="line">
+<shadow type="math_number_minmax">
+<mutation min="1" max="4" label="Line" />
+<field name="SLIDER">4</field>
+</shadow>
+</value>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</next>
+</block>
+</statement>
+</block>
+</xml>

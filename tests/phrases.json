@@ -1,0 +1,122 @@
+[
+  {
+    "id": "Hello",
+    "text": "你好世界",
+    "value": 0
+  },
+  {
+    "id": "Grade",
+    "text": "六年級",
+    "value": 1
+  },
+  {
+    "id": "Temperature",
+    "text": "今天溫度",
+    "value": 2
+  },
+  {
+    "id": "Success",
+    "text": "恭喜過關",
+    "value": 3
+  },
+  {
+    "id": "Welcome",
+    "text": "歡迎光臨",
+    "value": 4
+  },
+  {
+    "id": "Challenge",
+    "text": "請開始挑戰",
+    "value": 5
+  },
+  {
+    "id": "Learning",
+    "text": "學習真有趣",
+    "value": 6
+  },
+  {
+    "id": "HelloClass",
+    "text": "同學你好",
+    "value": 7
+  },
+  {
+    "id": "Ready",
+    "text": "準備開始",
+    "value": 8
+  },
+  {
+    "id": "GameStart",
+    "text": "遊戲開始",
+    "value": 9
+  },
+  {
+    "id": "GameOver",
+    "text": "遊戲結束",
+    "value": 10
+  },
+  {
+    "id": "TryAgain",
+    "text": "再試一次",
+    "value": 11
+  },
+  {
+    "id": "Great",
+    "text": "你真棒",
+    "value": 12
+  },
+  {
+    "id": "KeepGoing",
+    "text": "繼續加油",
+    "value": 13
+  },
+  {
+    "id": "Score",
+    "text": "目前得分",
+    "value": 14
+  },
+  {
+    "id": "TimeLeft",
+    "text": "剩餘時間",
+    "value": 15
+  },
+  {
+    "id": "Count",
+    "text": "目前次數",
+    "value": 16
+  },
+  {
+    "id": "Light",
+    "text": "光線強度",
+    "value": 17
+  },
+  {
+    "id": "Temp",
+    "text": "目前溫度",
+    "value": 18
+  },
+  {
+    "id": "Correct",
+    "text": "答對了",
+    "value": 19
+  },
+  {
+    "id": "Incorrect",
+    "text": "答錯了",
+    "value": 20
+  },
+  {
+    "id": "PressA",
+    "text": "請按A鍵",
+    "value": 21
+  },
+  {
+    "id": "PressB",
+    "text": "請按B鍵",
+    "value": 22
+  },
+  {
+    "id": "ThankYou",
+    "text": "謝謝大家",
+    "value": 23
+  }
+]

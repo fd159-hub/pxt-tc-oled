@@ -1,0 +1,19 @@
+{
+  "success": true,
+  "dependencyInstall": true,
+  "mainSourceUnchanged": true,
+  "targetVersions": {
+    "branch": "master",
+    "tag": "v9.1.1",
+    "commits": "https://github.com/microsoft/pxt-microbit/commits/59408da502b825423ad2b0180bcf105927e7def0",
+    "target": "9.1.1",
+    "pxt": "13.0.1"
+  },
+  "usedFlash": 450244,
+  "freeFlash": 20796,
+  "fontLiterals": 11,
+  "v1Disabled": true,
+  "sha256": "61ca7b450fa007b85a55ecc6a352da43e8b972758d44a7d50ce899d52a8ed761",
+  "studentInterfaceHardwareTested": false,
+  "rendererDiagnosticHardwarePass": "user reported; separate firmware; see HARDWARE-ACCEPTANCE.md"
+}
