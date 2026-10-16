@@ -1,0 +1,19 @@
+{
+  "officialEditor": "9.0.12",
+  "extensionUrl": "https://github.com/fd159-hub/pxt-tc-oled#main",
+  "githubImportPass": true,
+  "originalProgramBlockStructureUnchanged": true,
+  "originalMainTsByteIdentical": false,
+  "originalMainBlocksByteIdentical": false,
+  "preserved": [
+    "variable clicks initialized to 7",
+    "button A increments clicks by 1 and displays it",
+    "forever pauses 1000 ms"
+  ],
+  "comparison": "Block structure, field values and connections; generated IDs, variable metadata, top-level order and positions excluded.",
+  "serializedSourceCompressedBytes": 125371,
+  "standardPxtHexUnpackSupportsThisSize": false,
+  "exportHexSha256": "d99175d534fbebd4424792be0cb49013d558cd21580769e96f5b86f1b49bf5b4",
+  "officialHexRoundTripPass": true,
+  "localLegacyExtractorNote": "Only local pxt-core 13.0.1 HEX source unpacker failed; official MakeCode 9.0.12 reopened the HEX successfully."
+}
