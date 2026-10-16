@@ -1,0 +1,19 @@
+CACHE MANIFEST
+
+CACHE:
+/pxt-tc-oled/pxtsim.js
+/pxt-tc-oled/sim.js
+
+/pxt-tc-oled/sounds/giggle.wav
+/pxt-tc-oled/sounds/happy.wav
+/pxt-tc-oled/sounds/hello.wav
+/pxt-tc-oled/sounds/mysterious.wav
+/pxt-tc-oled/sounds/sad.wav
+/pxt-tc-oled/sounds/slide.wav
+/pxt-tc-oled/sounds/soaring.wav
+/pxt-tc-oled/sounds/spring.wav
+/pxt-tc-oled/sounds/twinkle.wav
+/pxt-tc-oled/sounds/yawn.wav
+
+NETWORK:
+*

@@ -1,0 +1,70 @@
+CACHE MANIFEST
+
+CACHE:
+/pxt-tc-oled/semantic.js
+/pxt-tc-oled/main.js
+/pxt-tc-oled/pxtapp.js
+/pxt-tc-oled/typescript.js
+/pxt-tc-oled/marked/marked.min.js
+/pxt-tc-oled/highlight.js/highlight.pack.js
+/pxt-tc-oled/jquery.js
+/pxt-tc-oled/pxtlib.js
+/pxt-tc-oled/pxtcompiler.js
+/pxt-tc-oled/pxtpy.js
+/pxt-tc-oled/pxteditor.js
+/pxt-tc-oled/pxtsim.js
+/pxt-tc-oled/pxtembed.js
+/pxt-tc-oled/pxtworker.js
+/pxt-tc-oled/pxtweb.js
+/pxt-tc-oled/blockly.css
+/pxt-tc-oled/semantic.css
+/pxt-tc-oled/rtlsemantic.css
+
+
+/pxt-tc-oled/editor.js
+/pxt-tc-oled/fieldeditors.js
+
+# blockly
+/pxt-tc-oled/blockly/media/sprites.png
+/pxt-tc-oled/blockly/media/click.mp3
+/pxt-tc-oled/blockly/media/disconnect.wav
+/pxt-tc-oled/blockly/media/delete.mp3
+
+# monaco; keep in sync with webapp/public/index.html
+/pxt-tc-oled/vs/loader.js
+/pxt-tc-oled/vs/base/worker/workerMain.js
+/pxt-tc-oled/vs/basic-languages/bat/bat.js
+/pxt-tc-oled/vs/basic-languages/cpp/cpp.js
+/pxt-tc-oled/vs/basic-languages/python/python.js
+/pxt-tc-oled/vs/basic-languages/typescript/typescript.js
+/pxt-tc-oled/vs/basic-languages/markdown/markdown.js
+/pxt-tc-oled/vs/editor/editor.main.css
+/pxt-tc-oled/vs/editor/editor.main.js
+/pxt-tc-oled/vs/editor/editor.main.nls.js
+/pxt-tc-oled/vs/language/json/jsonMode.js
+/pxt-tc-oled/vs/language/json/jsonWorker.js
+/pxt-tc-oled/vs/language/typescript/tsMode.js
+/pxt-tc-oled/vs/language/typescript/tsWorker.js
+
+# charts
+/pxt-tc-oled/smoothie/smoothie_compressed.js
+/pxt-tc-oled/images/Bars_black.gif
+
+# gifjs
+/pxt-tc-oled/gifjs/gif.js
+
+# ai
+/pxt-tc-oled/ai.0.js
+
+/pxt-tc-oled/worker.js
+/pxt-tc-oled/monacoworker.js
+
+# ver Fri Oct 16 2026 14:05:27 GMT+0800 (台北標準時間)
+
+# target
+/pxt-tc-oled/docs\static\utf8-logo.svg
+
+/pxt-tc-oled/target.js
+
+NETWORK:
+*
