@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "description": "Pinned build dependencies; install into compiler-fix/.editor-work/pxt",
+  "dependencies": {
+    "pxt-microbit": "9.1.1",
+    "pxt-core": "13.0.1",
+    "pxt-common-packages": "14.0.2"
+  }
+}

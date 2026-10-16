@@ -2,3 +2,5 @@ node_modules/
 pxt_modules/
 built/
 *.log
+compiler-fix/.editor-work/
+compiler-fix/.editor-output/

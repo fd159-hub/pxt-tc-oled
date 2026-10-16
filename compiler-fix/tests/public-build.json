@@ -1,0 +1,22 @@
+{
+  "test": "Patched browser Blocks -> native V2 HEX",
+  "editor": "9.1.1",
+  "targetVersions": {
+    "branch": "master",
+    "tag": "v9.1.1",
+    "commits": "https://github.com/microsoft/pxt-microbit/commits/59408da502b825423ad2b0180bcf105927e7def0",
+    "target": "9.1.1",
+    "pxt": "13.0.1"
+  },
+  "text": "歡迎來到學校",
+  "allChineseStringsVerified": [
+    "歡迎來到學校"
+  ],
+  "utf8": "e6ada1e8bf8ee4be86e588b0e5adb8e6a0a1",
+  "executableAddress": 304262,
+  "completeFontLiterals": 11,
+  "checksums": true,
+  "blocksSourceRestored": true,
+  "sha256": "7364ef8fb60af417476d158774cab157536c44ecaa3116f18518e5285c643fc3",
+  "hardwareTested": false
+}

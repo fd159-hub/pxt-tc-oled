@@ -1,0 +1,9 @@
+--- a/pxtlib/package.ts
++++ b/pxtlib/package.ts
+@@ -1188,5 +1188,5 @@
+                 try {
+-                    res.target = pxt.appTarget.compile;
++                    res.target = this.getTargetOptions();
+                     einfo = cpp.getExtensionInfo(this)
+                     if (!shimsGenerated && (einfo.shimsDTS || einfo.enumsDTS)) {
+                         shimsGenerated = true
