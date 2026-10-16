@@ -12,6 +12,7 @@
 6. 官方 MakeCode v9.0.12 實際匯入本機 `.mkcd` 預覽專案成功；開機及 A／B 事件顯示成可編輯積木，工具箱顯示啟用、中文、中文加數字、英數、清除單行及清除全部六種積木。未完成的自由中文輸入積木沒有出現在學生工具箱。畫面見 `tests/student-blocks-preview.png`。
 7. 官方 MakeCode v9.0.12 的「擴展」以 GitHub 網址搜尋及加入成功。比對加入前後的積木結構、欄位值及連接關係一致：`clicks` 初始值 7、A 鍵增加 1 並顯示數字、無限迴圈等待 1000 毫秒都保留。編輯器重新產生識別碼、頂層排列及初始化程式文字，因此不宣稱 XML／TypeScript 逐位元相同；詳見 `tests/official-import-results.json`。
 8. 上述專案在官方編輯器下載 HEX 後，實際重新匯入官方編輯器成功，能恢復相同的變數、事件及迴圈，且保留「中文 OLED」擴充。
+9. 正式標記 `v0.2.0` 後，官方 MakeCode v9.0.12／PXT 13.0.9 實際匯入僅 1,345 bytes 的 GitHub 相依範例，並成功編譯、下載 HEX。從 HEX 內附專案確認相依版本確實為 `github:fd159-hub/pxt-tc-oled#v0.2.0`，且 V2 可執行 Flash 包含全部 8 個字庫 bank、字碼表、位移表及解碼樹，共 11 個資料常值；HEX 校驗碼通過。詳見 `tests/official-student-build.json` 及 `tests/student-v0.2.0-blocks.png`。
 
 原生學生範例剩餘 Flash 20,796 bytes，完整資料見 `tests/consumer-native.json`。
 

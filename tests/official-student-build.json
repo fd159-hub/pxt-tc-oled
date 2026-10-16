@@ -1,0 +1,18 @@
+{
+  "officialCompilePass": true,
+  "officialEditor": "9.0.12",
+  "targetVersions": {
+    "branch": "stable9.0",
+    "tag": "v9.0.12",
+    "commits": "https://github.com/microsoft/pxt-microbit/commits/49d8b2a09658f4c68bdde0d80757f02138c5d913",
+    "target": "9.0.12",
+    "pxt": "13.0.9"
+  },
+  "dependency": "github:fd159-hub/pxt-tc-oled#v0.2.0",
+  "completeFontLiteralsVerified": 11,
+  "totalGlyphs": 4943,
+  "hexChecksumPass": true,
+  "sha256": "a53082e0a88bffc34a1ceb904d239eda849922d4247427387500baf5b9f2e012",
+  "studentInterfaceHardwareTested": false,
+  "freeChineseInputSupported": false
+}
