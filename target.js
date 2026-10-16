@@ -34,7 +34,8 @@ var pxtTargetBundle = {
             "Microsoft/pxt-neopixel"
         ],
         "githubPackages": true,
-        "cloudProviders": {}
+        "cloudProviders": {},
+        "apiRoot": "https://www.makecode.com/api/"
     },
     "compile": {
         "isNative": false,
