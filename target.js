@@ -372,8 +372,8 @@ var pxtTargetBundle = {
         "appLogo": "@cdnUrl@/blob/4de54063603c8d16531078818a83f7c29a3588fa/static/icons/apple-touch-icon.png",
         "organization": "中文 OLED UTF-8 修正版",
         "organizationUrl": "https://makecode.com/",
-        "organizationLogo": "/static/utf8-logo.svg",
-        "organizationWideLogo": "/static/utf8-logo.svg",
+        "organizationLogo": "/pxt-tc-oled/static/utf8-logo.svg",
+        "organizationWideLogo": "/pxt-tc-oled/static/utf8-logo.svg",
         "homeScreenHero": {
             "imageUrl": "@cdnUrl@/blob/27137e90637eecca4fffc33c1d9b1ab0d20612d5/static/herogallery/hero-banner.png",
             "name": "Flashing Heart",
